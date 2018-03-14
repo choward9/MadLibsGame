@@ -1,0 +1,15 @@
+﻿2 MadLibs available:
+
+***MadLibs file used for unit testing***
+
+#_1
+TEST STORY 1
+
+This is a/an ^an adjective^ Mad Lib test story. For this first ^a noun^, I am using ^a number^ words to test with.
+#!
+
+#_2
+TEST STORY 2
+
+Once upon a time, there was an old ^a noun^ ^a verb ending in "ing"^ in a house. That's the end of that story.
+#!

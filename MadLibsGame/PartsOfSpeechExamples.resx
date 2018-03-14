@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actors" xml:space="preserve">
+    <value>Kristen Wiig, Robert Downey Jr., Chris Pine, Zoe Saldana, Dwayne Johnson, Sylvester Stalone, Leslie Nielsen, Terry Crews, Bob Saget, Neil Patrick Harris</value>
+  </data>
+  <data name="Adjectives" xml:space="preserve">
+    <value>blue, messy, tired, unethical, damp, illuminated, quiet, aggressive, peaceful, dusty, acidic, obese, dehydrated, armed, frightened</value>
+  </data>
+  <data name="Adverbs" xml:space="preserve">
+    <value>quickly, foolishly, carefully, haphazardly, mockingly, inconspicuously, clumsily, expertly, enthusiastically, inappropriately, passionately, stealthily, unnaturally, randomly, reassuringly</value>
+  </data>
+  <data name="AliveSomethings" xml:space="preserve">
+    <value>plant, mushroom, worm, bear, amoeba, plankton, starfish, human, platypus, pigeon</value>
+  </data>
+  <data name="AliveSomethingsPlural" xml:space="preserve">
+    <value>mold, trees, tigers, mushrooms, fish, humans, crickets, eagles, poison ivy, grass</value>
+  </data>
+  <data name="Animals" xml:space="preserve">
+    <value>cow, sheep, pig, snake, shark, komodo dragon, zebra, octopus, polar bear, penguin</value>
+  </data>
+  <data name="AnimalsPlural" xml:space="preserve">
+    <value>buffalo, snakes, horses, eagles, gophers, groundhogs, lions, jellyfish, turtles, monkeys</value>
+  </data>
+  <data name="Birds" xml:space="preserve">
+    <value>robin, eagle, phoenix, parrot, bluejay, raven, hawk, falcon, turkey, chicken</value>
+  </data>
+  <data name="BoyNames" xml:space="preserve">
+    <value>James, Steve, Pablo, Chris, Eric, Kevin, Johnny, Tim, Aaron, Bruce</value>
+  </data>
+  <data name="Buildings" xml:space="preserve">
+    <value>bank, post office, barn, skyscraper, hospital, condo, apartment, boathouse, stadium, school</value>
+  </data>
+  <data name="Celebrities" xml:space="preserve">
+    <value>Brad Pitt, Angelina Jolie, John Stewart, Paris Hilton, Chris Pratt, Morgan Freeman, Kim Kardashian, Elon Musk, Arnold Schwarzenegger, Tina Fey</value>
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>Baltimore, Cleveland, Chicago, San Francisco, Washington DC, Boston, Omaha, Las Vegas, New York City, Minneapolis</value>
+  </data>
+  <data name="Clothing" xml:space="preserve">
+    <value>shirt, pants, socks, underwear, dress, stockings, overalls, sweater, sweatshirt, long underwear</value>
+  </data>
+  <data name="ClothingPlural" xml:space="preserve">
+    <value>shirts, sweatshirts, dresses, socks, underwear, stockings, mittens, gloves, pants, tuxedos</value>
+  </data>
+  <data name="Colors" xml:space="preserve">
+    <value>blue, red, black, pink, yellow, chartreuse, indigo, cyan, light green, greenish-yellow</value>
+  </data>
+  <data name="Concepts" xml:space="preserve">
+    <value>independence, democracy, communism, fascism, socialism, tyranny, vigilantism, freedom, balance</value>
+  </data>
+  <data name="Containers" xml:space="preserve">
+    <value>box, bin, barrel, crate, tupperware, bag, folder, bottle, jar, bucket</value>
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>Bolivia, Canada, China, Russia, Finland, South Africa, Japan, Zimbabwe, Mexico, Brazil</value>
+  </data>
+  <data name="Diseases" xml:space="preserve">
+    <value>tuberculosis, chicken pox, the flu, strep throat, pink eye, dysentery, scurvy, black lung, asthma, gonorrhea</value>
+  </data>
+  <data name="Exclamations" xml:space="preserve">
+    <value>Holy cow, Oh my god, Unbelievable, There's no way, I can't believe it, Ay dios mio, What in tarnation, Hallelujah</value>
+  </data>
+  <data name="FamousPeople" xml:space="preserve">
+    <value>George Washington, Bill Nye, Napoleon, Steven Spielberg, Vladimir Putin, Freddie Mercury, George Lucas, John Bon Jovi, Bill Gates, Jesus</value>
+  </data>
+  <data name="FemaleCelebrities" xml:space="preserve">
+    <value>Oprah Winfrey, Emma Watson, Ellen DeGeneres, Meryl Streep, Britney Spears, Lady Gaga, Kate Winslet, Raven Symone, Jennifer Lawrence, Amy Adams</value>
+  </data>
+  <data name="FirstNames" xml:space="preserve">
+    <value>Carol, Jim, Steve, Julie, Chris, Stephanie, Matt, Mike, Alex, Britney</value>
+  </data>
+  <data name="Foods" xml:space="preserve">
+    <value>pizza, ice cream, popcorn, pudding, apple, salad, lasagna, tuna casserole, chicken noodle soup, taco</value>
+  </data>
+  <data name="FoodsPlural" xml:space="preserve">
+    <value>apples, sandwiches, eggs, salads, pretzels, blueberries, lima beans, omelets, energy bars, cookies</value>
+  </data>
+  <data name="Fruits" xml:space="preserve">
+    <value>apple, blueberry, watermelon, papaya, banana, grape, strawberry, melon, orange, raspberry, pineapple</value>
+  </data>
+  <data name="FruitsPlural" xml:space="preserve">
+    <value>apples, blueberries, watermelons, papayas, bananas, grapes, strawberries, melons, oranges, raspberries, pineapples</value>
+  </data>
+  <data name="Furniture" xml:space="preserve">
+    <value>desk, dresser, couch, table, china cabinet, nightstand, tv stand, chair, bookshelf, stool</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Hopskotch, Capture The Flag, Monopoly, Four Square, Chutes and Ladders, Freeze Tag, Kan Jam, Duck Duck Goose, Chess, Apples To Apples</value>
+  </data>
+  <data name="GeographicalLocations" xml:space="preserve">
+    <value>the Grand Canyon, the Sahara Desert, Ohio, the North Pole, the outback, Antarctica, Russia, Rome, Mt. Everest, the Amazon Rainforest </value>
+  </data>
+  <data name="GerundVerbs" xml:space="preserve">
+    <value>running, hiding, swimming, detecting, playing, sewing, eating, drinking, protesting, defending, cleaning, showering, drawing, stalling, erasing</value>
+  </data>
+  <data name="Holidays" xml:space="preserve">
+    <value>Christmas, Thanksgiving, Independence Day, Boxing Day, Easter, Valentine's Day, New Year's Day, St. Patrick's Day, Halloween, Hanukkah, Kwanzaa</value>
+  </data>
+  <data name="HouseRooms" xml:space="preserve">
+    <value>living room, bathroom, kitchen, dining room, foyer, sitting room, bedroom, rec room, office, parlor</value>
+  </data>
+  <data name="IckySomethings" xml:space="preserve">
+    <value>earwax, fungus, collared greens, pus, squid, sludge, seaweed, slime, mucus, puke</value>
+  </data>
+  <data name="ItalianWords" xml:space="preserve">
+    <value>ciao, prego, grazie, andiamo, giorno, primo, arancione, giallo, novanta, tredici</value>
+  </data>
+  <data name="LastNames" xml:space="preserve">
+    <value>Smith, Jefferson, Howard, Brown, Doe, Gates, Watson, Jones, Stone, Johnson</value>
+  </data>
+  <data name="Letters" xml:space="preserve">
+    <value>A, Q, Z, T, W, P, N, R, X, O</value>
+  </data>
+  <data name="Liquids" xml:space="preserve">
+    <value>water, orange juice, gasoline, nail polish remover, paint thinner, grape soda, root beer, wine, hot sauce, Dr. Pepper</value>
+  </data>
+  <data name="MaleCelebrities" xml:space="preserve">
+    <value>Bono, Brad Pitt, Liam Neeson, Morgan Freeman, Adam Levine, Steven Spielberg, Adam Sandler, Barack Obama, Michael Jordan, Steve Harvey </value>
+  </data>
+  <data name="MovieStars" xml:space="preserve">
+    <value>Leonardo DiCaprio, Owen Wilson, Drew Barrymore, Tom Hiddleston, Matthew McConaughey, Sandra Bullock, Kristen Stewart, Clint Eastwood, Robert Pattinson, Will Smith</value>
+  </data>
+  <data name="NonsenseWords" xml:space="preserve">
+    <value>mothrocid, metiverth, grasibleng, puriheed, ematorda, subdiroy, ablexine, fendant, closect, bounacconji</value>
+  </data>
+  <data name="Nouns" xml:space="preserve">
+    <value>tree, marker, toaster, chair, airplane, skyscraper, frisbee, hurricane, cloud, chalkboard, water fountain, pogo stick, fire extinguisher, window, flower pot</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>lawyer, vacuum cleaner salesman, teacher, doctor, software developer, garbage collector, postal worker, carpenter, ditch digger, fast food worker</value>
+  </data>
+  <data name="OccupationsPlural" xml:space="preserve">
+    <value>cashiers, mail carriers, musicians, coaches, priests, painters, baseball players, project managers, videogame designers</value>
+  </data>
+  <data name="PartsOfBody" xml:space="preserve">
+    <value>nose, head, earlobe, armpit, heel, back, wrist, thumb, waist, elbow</value>
+  </data>
+  <data name="PartsOfBodyPlural" xml:space="preserve">
+    <value>knees, teeth, bones, arms, shoulder blades, knuckles, thumbs, ankles, nostrils</value>
+  </data>
+  <data name="PastTenseVerbs" xml:space="preserve">
+    <value>ate, jumped, ran, fell, rained, upset, disconnected, punched, chopped, built, closed, dropped, sat, threw, destroyed</value>
+  </data>
+  <data name="Places" xml:space="preserve">
+    <value>McDonald’s, the Mississippi river, Mt Everest, the White House, Cleveland, Russia, the North Pole, Antarctica, the National Aquarium, Best Buy, the moon, the bathroom, Kentucky, the beach, Ireland</value>
+  </data>
+  <data name="PluralNouns" xml:space="preserve">
+    <value>bananas, keys, boxes, sledgehammers, plants, branches, cars, road signs, strawberries, mirrors, chocolate chip cookies, trophies, shovels, blenders, chainsaws</value>
+  </data>
+  <data name="Relatives" xml:space="preserve">
+    <value>aunt, father, cousin, mother, uncle, brother, stepsister, great uncle, grandfather, second cousin</value>
+  </data>
+  <data name="RoundSomethings" xml:space="preserve">
+    <value>ball, boulder, wheel, pie, circle, traffic circle, Mars, baseball, basketball, pizza</value>
+  </data>
+  <data name="SchoolNames" xml:space="preserve">
+    <value>Harvard University, Yale University, Virginia Tech, State College, Boston College, UConn, University of Alabama, Howard Community College, Columbia University, Villanova University</value>
+  </data>
+  <data name="SillyNoises" xml:space="preserve">
+    <value>ah-ooh-ga, achoo, aroo, blam, biff, blop, clickety-clack, ding-dong, deed-a-reedle, d'oh</value>
+  </data>
+  <data name="SillyWords" xml:space="preserve">
+    <value>brouhaha, canoodle, fuddy-duddy, gobbledygook, kerfuffle, lickspittle, malarkey, kooky, bugaboo, scuttlebutt</value>
+  </data>
+  <data name="SillyWordsPlural" xml:space="preserve">
+    <value>bumbershoots, flibbertigibbets, snollygosters, quires, ratoons, yarboroughs, borborygms, nincompoops, taradiddles, collywobbles</value>
+  </data>
+  <data name="SpanishWords" xml:space="preserve">
+    <value>hola, adios, telefono, pelota, camiseta, juego, bueno, panqueque, mundo, luz</value>
+  </data>
+  <data name="Superlatives" xml:space="preserve">
+    <value>biggest, loudest, best, dirtiest, smallest, driest, creepiest, silliest, oldest, coldest</value>
+  </data>
+  <data name="Towns" xml:space="preserve">
+    <value>Franklin, Arlington, Salem, Springfield, Columbia, Georgetown, Washington, Riverside, Kingston, Northfield, Frederick</value>
+  </data>
+  <data name="TVActors" xml:space="preserve">
+    <value>Jim Parsons, Hugh Laurie, Amanda Bynes, Selena Gomez, Nina Dobrev, Ray Romano, Danny Trejo, Rowan Atkinson, Tina Fey, Zooey Deschanel</value>
+  </data>
+  <data name="Vegetables" xml:space="preserve">
+    <value>celery, carrot, spinach, squash, pepper, kale, lima bean, green bean, cauliflower, broccoli</value>
+  </data>
+  <data name="Vehicles" xml:space="preserve">
+    <value>car, train, airplane, bike, motorcycle, scooter, racecar, 18-wheeler, tank, tricycle</value>
+  </data>
+  <data name="Verbs" xml:space="preserve">
+    <value>swim, laugh, fall, roll, explode, disintegrate, jump, eat, sleep, write, swallow, shrink, fight, electrocute, throw</value>
+  </data>
+  <data name="VerbsEndingInS" xml:space="preserve">
+    <value>jumps, runs, eats, explodes, slips, builds, freezes, cooks, stuffs, electrocutes</value>
+  </data>
+  <data name="Names" xml:space="preserve">
+    <value>John Smith, Carol Betty, Kara Tobey, Pete Barrett, June Arnold, Patti Ellis, Katie Sherman, Clint Holmes, Victoria Stanley, Joe Lloyd</value>
+  </data>
+  <data name="Sports" xml:space="preserve">
+    <value>baseball, football, tennis, soccer, water polo, basketball, hockey, ultimate frisbee, wrestling, lacrosse</value>
+  </data>
+</root>

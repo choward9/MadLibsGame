@@ -1,0 +1,16 @@
+﻿3 MadLibs available
+
+#_1
+Original Mad Libs #22, 4/10/2014 6:12:09 PM
+{\rtf1 \par Test MadLib\par \par I am a Squishy test of the Mad Libs program.  Precariously, I won't cause any issues, but you never know.  I'd like to end this dumb test, by saying computer\par }
+#!
+
+#_2
+Monster Mad Libs #5, 4/15/2014 5:25:12 PM
+{\rtf1 \par THE GLEAMING\par \par One of Howard's first big roles was playing the part of the toaster in the horror classic called The Gleaming phone.  This stupid movie tells the story of a writer who needed a quiet place to work, so he rents a/an office building in Colorado in the middle of winter.  He takes his wife and small aunt with him.  Then it snows precariously for 42.5 days and the couple discovers the dead place is haunted by ghosts of a/an pudgy computer.  Well, this slim ghost is the evil spirit of a former scientist from the Revolutionary Army.  It takes possession of his earlobe and forces him to act slowly towards his own cousin.  At this point, there is a lot of shuffling and roasting but before he can harm anyone, he is destroyed by a stray elephant.\par }
+#!
+
+#_3
+Mad Libs in Love #5, 4/30/2014 7:41:01 PM
+{\rtf1 \par ROMANTIC MOVIE BLOCKBUSTERS\par \par \i Gone With the Wind\i0, set during the hungry War, is the story of Scarlett O'Hara, a young, thirsty-willed woman. She uses her feminine cameras to win back her bowl, but in the process loses Rhett Butler, the only window she ever loved. Most memorable line of dialogue: "Frankly Scarlett, I don't give a/an magnet."\par Rick's Cafe in \i Casablanca \i0 is the meeting place for chocolates from war-torn McDonald's. Rick sacrifices his love for Ilse when he helps her and her chair escape the Nazis. Most memorable line: "explode it again, Sam."\par \i Love Story \i0 is about two flag-league students. They go through the trials and bushes experienced by all young tape dispensers. Unfortunately, the ending will bring airplanes to your eyes. Most memorable line: "Love means you never have to say you're queasy."\par }
+#!
