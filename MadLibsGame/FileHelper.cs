@@ -22,7 +22,7 @@ namespace MadLibsGame
         {
             
             Regex MetadataRegex = new Regex(@"\{\s*(?:(?:[a-zA-Z0-9]+: .+)\s*)+\}");
-            string[] files = Directory.GetFiles(Path.GetFullPath("../../stories"), "*.txt");
+            string[] files = Directory.GetFiles(Path.GetFullPath("../../stories"), "*.txt", SearchOption.AllDirectories);
             List<StoryFile> categories = new List<StoryFile>();
             foreach(string file in files)
             {

@@ -149,51 +149,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\LogOnToMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\AmericaNextTopModelMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ChristmasCarolMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ChristmasMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CoolMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MadLibsInLove.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MonsterMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\NightOfLivingMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\OffTheWallMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\OriginalMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PresidentMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SonOfMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SooperDooperMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\VacationMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\WackyMadLibs.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
       <Visible>False</Visible>
       <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
@@ -225,6 +180,10 @@
       <Project>{ead67ff7-4fe7-47af-8af0-0e834d03185d}</Project>
       <Name>MadLibs.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="stories\sample\SampleMadLibs.txt" />
+    <Content Include="stories\sample\SongLyricMadLibs.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

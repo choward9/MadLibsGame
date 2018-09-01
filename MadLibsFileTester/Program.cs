@@ -25,7 +25,7 @@ namespace MadLibsFileTester
             }
 
             Regex storyRegex = new Regex(@"#_(?<Number>\d+)(?<Text>.*?)#!", RegexOptions.Singleline);
-            var files = Directory.GetFiles(folderPath, "*.txt");
+            var files = Directory.GetFiles(folderPath, "*.txt", SearchOption.AllDirectories);
 
             List<string> errors = new List<string>();
 
