@@ -14,6 +14,11 @@ namespace MadLibsGame
         public static string ChosenCategory { get; set; }
         public static int ChosenStoryNumber { get; set; }
 
+        public static IEnumerable<string> GetFilePaths()
+        {
+            return Directory.GetFiles(Path.GetFullPath("../../stories"), "*.txt", SearchOption.AllDirectories);
+        }
+
         /// <summary>
         /// Read all the files in the story file directory and return category list
         /// </summary>
@@ -134,6 +139,21 @@ namespace MadLibsGame
             }
 
             return sml;
+        }
+
+        public static string GetFileTextPreview(string filePath)
+        {
+            string storyText = string.Empty;
+            if (File.Exists(filePath))
+            {
+                storyText = File.ReadAllText(filePath);
+                storyText = storyText.Replace("#_", "");
+                storyText = storyText.Replace("#!", "");
+                storyText = Regex.Replace(storyText, @"\^(.+?)\^", @"\ul [$1]\ul0 ");
+                storyText = @"{\rtf1 " + Regex.Replace(storyText, @"\r\n", @"\par ") + "}";
+            }
+
+            return storyText;
         }
     }
 }

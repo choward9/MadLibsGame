@@ -27,6 +27,7 @@ namespace MadLibsGame
         {
             InitializeComponent();
             LoadCategoriesList();
+            LoadPreviewFilesList();
             PopulateSavedMadLibs();
         }
 
@@ -44,6 +45,20 @@ namespace MadLibsGame
             CategoryList.SelectedIndex = 0;
         }
 
+        private void LoadPreviewFilesList()
+        {
+            var files = FileHelper.GetFilePaths();
+            List<KeyValuePair<string, string>> listItems = new List<KeyValuePair<string, string>>();
+            listItems.Add(new KeyValuePair<string, string>("--Select a file--", string.Empty));
+            foreach(var file in files)
+            {
+                listItems.Add(new KeyValuePair<string, string>(file.Substring(file.LastIndexOf("\\") + 1), file));
+            }
+            PreviewFileDropdown.DataSource = new BindingSource(listItems, null);
+            PreviewFileDropdown.DisplayMember = "Key";
+            PreviewFileDropdown.ValueMember = "Value";
+            PreviewFileDropdown.SelectedIndex = 0;
+        }
         private void StartGame()
         {
             WordBox.Enabled = true;
@@ -330,6 +345,17 @@ namespace MadLibsGame
         }
         #endregion
 
+        #region File Preview
+        private void PreviewFileDropdown__SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int selected = PreviewFileDropdown.SelectedIndex;
+            if(selected > 0)
+            {
+                string displayText = FileHelper.GetFileTextPreview(PreviewFileDropdown.SelectedValue.ToString());
+                FilePreviewOutput.Rtf = displayText;
+            }
+        }
+        #endregion
         private void ChooseForMeButton_Click(object sender, EventArgs e)
         {
             WordBox.Text = string.Empty;

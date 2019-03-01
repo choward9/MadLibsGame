@@ -56,6 +56,10 @@
             this.SavedMadLibInfoLabel = new System.Windows.Forms.Label();
             this.SavedMadLibBox = new System.Windows.Forms.ComboBox();
             this.SavedTabDescription = new System.Windows.Forms.Label();
+            this.FilePreviewTab = new System.Windows.Forms.TabPage();
+            this.FilePreviewOutput = new System.Windows.Forms.RichTextBox();
+            this.PreviewFileDropdown = new System.Windows.Forms.ComboBox();
+            this.MadLibsFileChoosePrompt = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ExitMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,6 +77,7 @@
             this.MadLibGameTabs.SuspendLayout();
             this.NewMadLibTab.SuspendLayout();
             this.SavedMadLibPage.SuspendLayout();
+            this.FilePreviewTab.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.MadLibsPanel.SuspendLayout();
             this.SuspendLayout();
@@ -314,6 +319,7 @@
             // 
             this.MadLibGameTabs.Controls.Add(this.NewMadLibTab);
             this.MadLibGameTabs.Controls.Add(this.SavedMadLibPage);
+            this.MadLibGameTabs.Controls.Add(this.FilePreviewTab);
             this.MadLibGameTabs.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MadLibGameTabs.Location = new System.Drawing.Point(0, 0);
             this.MadLibGameTabs.Name = "MadLibGameTabs";
@@ -386,6 +392,51 @@
             this.SavedTabDescription.Size = new System.Drawing.Size(303, 17);
             this.SavedTabDescription.TabIndex = 0;
             this.SavedTabDescription.Text = "You can view any Mad Libs you\'ve saved here.";
+            // 
+            // FilePreviewTab
+            // 
+            this.FilePreviewTab.Controls.Add(this.FilePreviewOutput);
+            this.FilePreviewTab.Controls.Add(this.PreviewFileDropdown);
+            this.FilePreviewTab.Controls.Add(this.MadLibsFileChoosePrompt);
+            this.FilePreviewTab.Location = new System.Drawing.Point(4, 22);
+            this.FilePreviewTab.Name = "FilePreviewTab";
+            this.FilePreviewTab.Padding = new System.Windows.Forms.Padding(3);
+            this.FilePreviewTab.Size = new System.Drawing.Size(635, 538);
+            this.FilePreviewTab.TabIndex = 2;
+            this.FilePreviewTab.Text = "Preview Mad Libs Files";
+            this.FilePreviewTab.UseVisualStyleBackColor = true;
+            // 
+            // FilePreviewOutput
+            // 
+            this.FilePreviewOutput.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FilePreviewOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilePreviewOutput.Location = new System.Drawing.Point(15, 92);
+            this.FilePreviewOutput.Name = "FilePreviewOutput";
+            this.FilePreviewOutput.Size = new System.Drawing.Size(597, 300);
+            this.FilePreviewOutput.TabIndex = 2;
+            this.FilePreviewOutput.Text = "";
+            // 
+            // PreviewFileDropdown
+            // 
+            this.PreviewFileDropdown.DropDownHeight = 210;
+            this.PreviewFileDropdown.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PreviewFileDropdown.FormattingEnabled = true;
+            this.PreviewFileDropdown.IntegralHeight = false;
+            this.PreviewFileDropdown.Location = new System.Drawing.Point(23, 57);
+            this.PreviewFileDropdown.Name = "PreviewFileDropdown";
+            this.PreviewFileDropdown.Size = new System.Drawing.Size(589, 24);
+            this.PreviewFileDropdown.TabIndex = 1;
+            this.PreviewFileDropdown.Text = "Choose a file...";
+            this.PreviewFileDropdown.SelectedIndexChanged += new System.EventHandler(this.PreviewFileDropdown__SelectedIndexChanged);
+            // 
+            // MadLibsFileChoosePrompt
+            // 
+            this.MadLibsFileChoosePrompt.AutoSize = true;
+            this.MadLibsFileChoosePrompt.Location = new System.Drawing.Point(22, 22);
+            this.MadLibsFileChoosePrompt.Name = "MadLibsFileChoosePrompt";
+            this.MadLibsFileChoosePrompt.Size = new System.Drawing.Size(169, 13);
+            this.MadLibsFileChoosePrompt.TabIndex = 0;
+            this.MadLibsFileChoosePrompt.Text = "Choose a Mad Libs file to preview.";
             // 
             // menuStrip1
             // 
@@ -500,6 +551,8 @@
             this.NewMadLibTab.ResumeLayout(false);
             this.SavedMadLibPage.ResumeLayout(false);
             this.SavedMadLibPage.PerformLayout();
+            this.FilePreviewTab.ResumeLayout(false);
+            this.FilePreviewTab.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.MadLibsPanel.ResumeLayout(false);
@@ -549,6 +602,10 @@
         private System.Windows.Forms.RichTextBox MadLibDisplayBox;
         private System.Windows.Forms.Label CategoryMetadataLabel;
         private System.Windows.Forms.RichTextBox SavedMadLibDisplayBox;
+        private System.Windows.Forms.TabPage FilePreviewTab;
+        private System.Windows.Forms.RichTextBox FilePreviewOutput;
+        private System.Windows.Forms.ComboBox PreviewFileDropdown;
+        private System.Windows.Forms.Label MadLibsFileChoosePrompt;
     }
 }
 

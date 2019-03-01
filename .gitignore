@@ -288,4 +288,4 @@ __pycache__/
 *.xsd.cs
 /MadLibsFileTester/test-results.txt
 /MadLibsGame/Saved/SavedMadLibs.txt
-/MadLibsGame/stories/from-book
+/MadLibsGame/stories/from-books
